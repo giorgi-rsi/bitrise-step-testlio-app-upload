@@ -21,10 +21,8 @@ is_skippable: false
 deps:
   brew:
   - name: curl
-  - name: ack
   apt_get:
   - name: curl
-  - name: ack
 run_if: ""
 
 inputs:
@@ -63,7 +61,7 @@ inputs:
         Version
       is_expand: true
       is_required: true
-      
+
   - file:
     opts:
       title: "File"
