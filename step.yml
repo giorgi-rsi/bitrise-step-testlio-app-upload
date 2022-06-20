@@ -3,7 +3,7 @@ title: |-
 summary: |-
   Uploads an application to Testlio
 description: |-
-  This step will take an .apk or .ipa file and upload it to the Testlio App Repository
+  This step will take an .apk or .ipa file and upload it to the Testlio build api
 website: https://github.com/giorgi-rsi/bitrise-step-testlio-upload-apps-repo
 source_code_url: https://github.com/giorgi-rsi/bitrise-step-testlio-upload-apps-repo
 support_url: https://github.com/giorgi-rsi/bitrise-step-testlio-upload-apps-repo/issues
