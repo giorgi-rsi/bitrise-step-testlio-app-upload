@@ -34,6 +34,7 @@ inputs:
         Authorization
       is_expand: true
       is_required: true
+      is_sensitive: true
 
   - project_id:
     opts:
