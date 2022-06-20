@@ -51,11 +51,14 @@ If you want to use your step in your project's `bitrise.yml`:
 2. reference it in your `bitrise.yml` with the `git::PUBLIC-GIT-CLONE-URL@BRANCH` step reference style:
 
 ```
-- git::https://github.com/user/my-step.git@branch:
+- git::https://github.com/giorgi-rsi/bitrise-step-testlio-app-upload@branch:
    title: My step
    inputs:
-   - my_input_1: "my value 1"
-   - my_input_2: "my value 2"
+   - authorization: "value for authorization"
+   - project_id: "value for project_id"
+   - name: "value for name"
+   - version: "value for version"
+   - file: "value for file"
 ```
 
 You can find more examples of step reference styles
