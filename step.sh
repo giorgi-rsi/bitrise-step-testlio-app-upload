@@ -12,6 +12,6 @@ curl --request POST https://api.testlio.com/build/v3/collections/$PROJECT_ID/bui
     -H "Authorization: $TESTLIO_AUTHORIZATION" \
     -F name=$APP_NAME \
     -F version=$APP_VERSION \
-    -F file=$APP_FILE
+    -F "file=@$APP_FILE"
 
 exit 0
